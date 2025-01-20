@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        oxanium: ['Oxanium', 'sans-serif'], // Add Oxanium font
+      },
+    },
   },
   plugins: [],
 }
