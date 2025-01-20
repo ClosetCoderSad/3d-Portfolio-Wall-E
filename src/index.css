@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+*{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+canvas{
+  width: 100vw !important;
+  height: 100vh !important;
+  display: block;
+}
