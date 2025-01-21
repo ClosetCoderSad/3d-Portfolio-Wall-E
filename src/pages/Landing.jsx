@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Landing = () => {
   return (
-    <div className="h-fit w-[100vw]">
+    <div className="h-fit w-[100vw] overflow-hidden overscroll-x-none">
       <Navbar />
       <div>
         <div className="absolute w-full top-[30%] sm:top-1/4 mx-auto z-10">

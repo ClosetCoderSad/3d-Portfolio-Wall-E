@@ -53,7 +53,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative overflow-hidden flex flex-col text-white body-font bg-black w-[100vw] h-fit"
+      className="relative overflow-hidden overscroll-x-none flex flex-col text-white body-font bg-black w-[100vw] h-fit"
     >
       <h2 className="text-3xl md:text-5xl font-bold text-white my-12 text-center font-oxanium">
       Build and Inspire

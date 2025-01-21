@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
             <div className='absolute w-[100vw] h-[100px] flex justify-between items-center z-20 px-6'>
-                <h1 className='sm:text-3xl text-2xl font-bold ml-4 font-oxanium text-gray-300'>Abrar.<span className='bg-gradient-to-br from-red-500 to-red-800 rounded-full p-1 text-gray-300'>A</span></h1>
+                <h1 className='sm:text-3xl text-2xl font-bold pl-4 font-oxanium text-gray-300'>Abrar.<span className='bg-gradient-to-br from-red-500 to-red-800 rounded-full p-1 text-gray-300'>A</span></h1>
                 <ul className='hidden md:flex text-lg'>
                     <li className='p-5 hover:text-white ease-in-out duration-500 font-oxanium text-gray-200'><a href='#about'>About</a></li>
                     <li className='p-5 hover:text-white ease-in-out duration-500 font-oxanium text-gray-200'><a href='#experience'>Experience</a></li>
@@ -24,7 +24,7 @@ const Navbar = () => {
                 </ul>
 
                 
-                <div onClick={handleNav} className='block md:hidden mr-6 cursor-pointer'>
+                <div onClick={handleNav} className='block md:hidden pr-4 cursor-pointer'>
                     {nav? <AiOutlineClose size={20} color='white'/>:<AiOutlineMenu size={20} color='white'/>}
                 </div>
 
