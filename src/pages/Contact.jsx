@@ -35,7 +35,7 @@ export default function Contact() {
         <h2 className="text-3xl md:text-5xl font-bold text-white mt-12 text-center font-oxanium">Call Home!</h2>
         <section className="space-y-6">
           <form className="space-y-4" action='https://getform.io/f/aejjkpob' method='POST'>
-            <div>
+            <div data-aos="fade-left" data-aos-delay="300">
               <label htmlFor="email" className="block mb-2">Email</label>
               <input
                 type="email"
@@ -47,7 +47,7 @@ export default function Contact() {
                 required
               />
             </div>
-            <div>
+            <div data-aos="fade-right" data-aos-delay="300">
               <label htmlFor="message" className="block mb-2">Message</label>
               <textarea
                 id="message"
@@ -66,7 +66,7 @@ export default function Contact() {
             </button>
           </form>
         </section>
-        <section className="space-y-4">
+        <section className="space-y-4" data-aos="fade-left" data-aos-delay="300">
           <h2 className="text-2xl font-bold font-oxanium">Connect With Me</h2>
           <div className="flex gap-6">
             <a
@@ -105,7 +105,7 @@ export default function Contact() {
             </a>
           </div>
         </section>
-        <section className="space-y-4">
+        <section className="space-y-4" data-aos="fade-right" data-aos-delay="300">
           <h2 className="text-2xl font-bold font-oxanium">Be my Eeeee-vah?</h2>
           <div className="relative inline-block">
             <button
