@@ -22,7 +22,7 @@ export const About = () => {
     const [selectedYear, setSelectedYear] = useState("present");
   
     return (
-      <div className="w-[100vw] h-[100vh] bg-black p-8" id="about">
+      <div className="w-[100vw] h-[100vh] bg-black p-8">
         <div className="w-[80vw] mx-auto">
           <h1 className="text-3xl md:text-5xl font-bold text-white mt-12 text-center font-oxanium">
           Directive: Know Me

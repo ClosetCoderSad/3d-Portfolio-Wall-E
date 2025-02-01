@@ -1,12 +1,11 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import { ThreeDCanvas } from "../components/ThreeDCanvas";
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
     <div className="h-fit w-[100vw] overflow-hidden overscroll-x-none">
-      <Navbar />
       <div>
         <div className="absolute w-full top-[30%] sm:top-1/4 mx-auto z-10">
           <h1 className="text-white text-3xl sm:text-4xl lg:text-6xl font-extrabold text-center font-oxanium"> 
@@ -31,12 +30,12 @@ const Landing = () => {
             >
               Resume
             </a>
-            <a
-              className="ease-in-out duration-500 px-6 py-3 w-full rounded-xl border border-gray-400 hover:bg-gradient-to-br from-red-500 to-red-800 text-white hover:border-none sm:text-base text-sm font-oxanium"
+            <Link to="/contact"><a
+              className="ease-in-out duration-500 px-6 py-[11px] w-full rounded-xl border border-gray-400 hover:bg-gradient-to-br from-red-500 to-red-800 text-white hover:border-none sm:text-base text-sm font-oxanium"
               href="#contact"
             >
               Contact
-            </a>
+            </a></Link>
           </div>
         </div>
 

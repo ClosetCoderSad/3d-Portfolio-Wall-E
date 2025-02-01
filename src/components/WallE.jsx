@@ -20,7 +20,7 @@ export function WallE(props) {
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
         <group name="Sketchfab_model" rotation={[-Math.PI / 1.65, 0, 0]}>
-          <group name="0d517e7ed53f4f858caad58d3bacd985fbx" rotation={[Math.PI / 2, 0, 0]} scale={0.002} position={[0,0.15,-0.49]}>
+          <group name="0d517e7ed53f4f858caad58d3bacd985fbx" rotation={[Math.PI / 2, 0, 0]} scale={0.0028} position={[0,1.5,-0.50]}>
             <group name="Object_2">
               <group name="RootNode">
                 <group name="trackGears1_low" position={[0, 49.736, -85.991]} rotation={[2.199, 0, 0]} scale={100}>
