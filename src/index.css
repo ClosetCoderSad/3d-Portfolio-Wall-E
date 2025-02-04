@@ -22,6 +22,13 @@ body {
 
 canvas{
   width: 100vw !important;
-  height: 90vh !important;
+  height: 110vh !important;
   display: block;
+}
+#canvas2{
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: absolute;
+  z-index: -10;
 }

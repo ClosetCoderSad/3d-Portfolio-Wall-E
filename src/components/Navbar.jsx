@@ -15,7 +15,7 @@ const Navbar = () => {
     }
 
     return (
-            <div className='w-[100vw] h-[100px] flex justify-between items-center z-20 px-6 bg-black'>
+            <div className='w-[100vw] sm:h-[100px] h-[80px] flex justify-between items-center z-20 px-6 absolute'>
                 <Link to="/"><h1 className='sm:text-3xl text-2xl font-bold pl-4 font-oxanium text-gray-300'>Abrar.<span className='bg-gradient-to-br from-red-500 to-red-800 rounded-full p-1 text-gray-300'>A</span></h1></Link>
                 <ul className='hidden md:flex text-lg'>
                     <Link to="/about"><li className='p-5 hover:text-white ease-in-out duration-500 font-oxanium text-gray-200'>About</li></Link>

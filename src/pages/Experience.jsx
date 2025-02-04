@@ -32,7 +32,7 @@ export default function Experience() {
         ]
     };
   return (
-    <section className='relative overflow-hidden flex flex-col text-white body-font bg-black w-[100vw] h-[100vh]'>
+    <section className='relative overflow-hidden flex flex-col text-white body-font bg-black w-[100vw] h-[100vh] pt-[100px]'>
          <h2 className='text-3xl md:text-5xl font-bold text-white my-12 text-center font-oxanium'>Tracks of Progress</h2>
         <div className='container px-8 pt-8 mx-auto' data-aos='fade-up' data-aos-delay='400'> 
             <Slider {...settings}>

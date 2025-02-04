@@ -21,7 +21,7 @@ export const About = () => {
   const [selectedYear, setSelectedYear] = useState("present");
 
   return (
-    <div className="w-full min-h-screen bg-black p-8 overflow-x-hidden">
+    <div className="w-full min-h-screen bg-black p-8 overflow-x-hidden pt-[100px]">
       <div className="container mx-auto max-w-screen-xl">
         <h1 className="text-3xl md:text-5xl font-bold text-white mt-12 text-center font-oxanium">
           Directive: Know Me
