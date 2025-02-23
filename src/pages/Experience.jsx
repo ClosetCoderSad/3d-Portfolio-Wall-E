@@ -7,14 +7,16 @@ import yards from '../assets/99yards.jpg'
 import bs from '../assets/buildspace.jpg'
 import vh from '../assets/vh.png'
 import nc from '../assets/nc.jpg'
+import ais from '../assets/ais_utd_logo.jpg'
 
 export default function Experience() {
     const listExperience = [
-        {id:1, image:hz, title:'Full-Stack Developer', name:'Himmels Zenith', description:'December 2024 - Present'},
-        {id:2, image:yards, title:'Software Developer Intern', name:'99 Yards', description:'September 2024 - December 2024'},
-        {id:3, image:bs, title:'S5 Builder', name:'Buildspace', description:'June 2024 - July 2024 '},
-        {id:4, image:vh, title:'Teaching Assistant', name:'Vertical Horizon', description:'September 2023 - July 2024'},
-        {id:5, image:nc, title:'Executive Secretary', name:'MLIS Nutrition Club', description:'August 2023 - March 2024'},
+        {id:1, image:ais, title:'Machine Learning Engineer', name:'AIS UTD', description:'February 2025 - Present'},
+        {id:2, image:hz, title:'Full-Stack Developer', name:'Himmels Zenith', description:'December 2024 - February 2025'},
+        {id:3, image:yards, title:'Software Developer Intern', name:'99 Yards', description:'September 2024 - December 2024'},
+        {id:4, image:bs, title:'S5 Builder', name:'Buildspace', description:'June 2024 - July 2024 '},
+        {id:5, image:vh, title:'Teaching Assistant', name:'Vertical Horizon', description:'September 2023 - July 2024'},
+        {id:6, image:nc, title:'Executive Secretary', name:'MLIS Nutrition Club', description:'August 2023 - March 2024'},
     ];
     const settings = {
         dots: false, // Set to false to disable dots for time being

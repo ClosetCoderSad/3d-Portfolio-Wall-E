@@ -53,7 +53,32 @@ const techStack = [
     name: "GitHub",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   },
+  {
+    name: "Pandas",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
+  },
+  {
+    name: "NumPy",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
+  },
+  {
+    name: "Matplotlib",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg",
+  },
+  {
+    name: "Scikit-learn",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+  },
+  {
+    name: "TensorFlow",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+  },
+  {
+    name: "Keras",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg",
+  },
 ];
+
 export function TechStack() {
   return (
     <div className="w-full h-fit px-8 py-12">

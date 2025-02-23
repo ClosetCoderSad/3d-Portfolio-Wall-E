@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import project from "../assets/project.png"
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.jpg";
@@ -12,24 +13,30 @@ export default function Projects() {
   const listProjects = [
     {
       id: 1,
+      image: project,
+      title: "Potato Disease Classification Model",
+      demoLink: "https://github.com/ClosetCoderSad/ML-DL-Projects/blob/main/Potato_Disease_Prediction_CNN_Image_Classifier.ipynb",
+    },
+    {
+      id: 2,
       image: project1,
       title: "HZ MERN Stack",
       demoLink: "https://himmels-zenith.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       image: project2,
       title: "Sustainify | HackUTD",
       demoLink: "https://devpost.com/software/greenhouse-hpmoa1",
     },
     {
-      id: 3,
+      id: 4,
       image: project3,
       title: "Netflix Clone",
       demoLink: "https://github.com/ClosetCoderSad/Netflix-Clone",
     },
     {
-      id: 4,
+      id: 5,
       image: project4,
       title: "AI Assistant Mouse",
       demoLink: "https://github.com/ClosetCoderSad/AI_Assistant_Mouse",
