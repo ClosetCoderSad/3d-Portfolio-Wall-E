@@ -7,36 +7,43 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.jpg";
 import project4 from "../assets/project4.jpg";
+import project5 from "../assets/project5.png";
 import { TechStack } from "../components/TechStack";
 
 export default function Projects() {
   const listProjects = [
     {
       id: 1,
+      image: project5,
+      title: "OptiClarity",
+      demoLink: "https://github.com/saiperam/AIM-OptiClarity",
+    },
+    {
+      id: 2,
       image: project,
       title: "Potato Disease Classification Model",
       demoLink: "https://github.com/ClosetCoderSad/ML-DL-Projects/blob/main/Potato_Disease_Prediction_CNN_Image_Classifier.ipynb",
     },
     {
-      id: 2,
+      id: 3,
       image: project1,
       title: "HZ MERN Stack",
       demoLink: "https://himmels-zenith.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       image: project2,
       title: "Sustainify | HackUTD",
       demoLink: "https://devpost.com/software/greenhouse-hpmoa1",
     },
     {
-      id: 4,
+      id: 5,
       image: project3,
       title: "Netflix Clone",
       demoLink: "https://github.com/ClosetCoderSad/Netflix-Clone",
     },
     {
-      id: 5,
+      id: 6,
       image: project4,
       title: "AI Assistant Mouse",
       demoLink: "https://github.com/ClosetCoderSad/AI_Assistant_Mouse",
