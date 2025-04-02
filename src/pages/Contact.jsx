@@ -30,7 +30,7 @@ export default function Contact() {
   }, []);
 
   return (
-    <main className="w-full min-h-screen bg-black text-white p-6 md:p-12 pt-[100px]">
+    <main className="w-full min-h-screen bg-black text-white p-6 md:p-12 pt-[100px] overflow-y-hidden">
       <div className="max-w-4xl mx-auto space-y-5">
         <h2 className="text-3xl md:text-5xl font-bold text-white mt-12 text-center font-oxanium">Call Home!</h2>
         <section className="space-y-6">
