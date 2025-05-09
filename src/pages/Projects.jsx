@@ -22,7 +22,7 @@ export default function Projects() {
     {
       id: 2,
       image: project6,
-      title: "OpthoLlama",
+      title: "OpthoLlama (Llama-3 Finetuned)",
       demoLink: "https://github.com/ClosetCoderSad/OpthoLlama",
     },
     {
