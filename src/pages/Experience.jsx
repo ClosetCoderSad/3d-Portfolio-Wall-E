@@ -11,7 +11,7 @@ import ais from '../assets/ais_utd_logo.jpg'
 
 export default function Experience() {
     const listExperience = [
-        {id:1, image:ais, title:'Machine Learning Engineer', name:'AIS UTD', description:'February 2025 - Present'},
+        {id:1, image:ais, title:'Machine Learning Engineer', name:'AIS UTD', description:'February 2025 - May 2025'},
         {id:2, image:hz, title:'Full-Stack Developer', name:'Himmels Zenith', description:'December 2024 - February 2025'},
         {id:3, image:bs, title:'Python Developer', name:'Buildspace', description:'June 2024 - July 2024 '},
         {id:4, image:vh, title:'Teaching Assistant', name:'Vertical Horizon', description:'September 2023 - July 2024'},
