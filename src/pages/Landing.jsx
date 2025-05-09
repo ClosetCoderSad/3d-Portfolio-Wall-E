@@ -8,11 +8,11 @@ const Landing = () => {
     <div className="h-fit w-[100vw] overflow-hidden overscroll-x-none">
       <div>
         <div className="absolute w-full top-[30%] sm:top-1/4 mx-auto z-10">
-          <h1 className="text-white text-2xl sm:text-4xl lg:text-6xl font-extrabold text-center font-oxanium"> 
+          <h1 className="text-white text-3xl sm:text-4xl lg:text-6xl font-extrabold text-center font-oxanium"> 
             <span className="primary-color">I'm a</span>
             <br />
             <TypeAnimation
-              sequence={["Full-Stack Developer", 1000, "Machine Learning Engineer", 1000, "Aspiring SWE", 1000]}
+              sequence={["Full-Stack Developer", 1000, "ML Engineer", 1000, "Aspiring SWE", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
