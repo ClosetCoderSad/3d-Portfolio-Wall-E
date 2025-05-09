@@ -9,10 +9,10 @@ const Landing = () => {
       <div>
         <div className="absolute w-full top-[30%] sm:top-1/4 mx-auto z-10">
           <h1 className="text-white text-3xl sm:text-4xl lg:text-6xl font-extrabold text-center font-oxanium"> 
-            <span className="primary-color">I'm an</span>
+            <span className="primary-color">I'm a</span>
             <br />
             <TypeAnimation
-              sequence={["Aspiring SWE", 1000, "Full-Stack Developer", 1000]}
+              sequence={["Full-Stack Developer", 1000, "Machine Learning Engineer", 1000, "Aspiring SWE", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
