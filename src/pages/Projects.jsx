@@ -20,24 +20,30 @@ export default function Projects() {
     },
     {
       id: 2,
+      image: project6,
+      title: "OpthoLlama",
+      demoLink: "https://github.com/ClosetCoderSad/OpthoLlama",
+    },
+    {
+      id: 3,
       image: project1,
       title: "Himmels Zenith",
       demoLink: "https://himmels-zenith.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       image: project2,
       title: "Sustainify",
       demoLink: "https://devpost.com/software/greenhouse-hpmoa1",
     },
     {
-      id: 4,
+      id: 5,
       image: project3,
       title: "Netflix Clone",
       demoLink: "https://github.com/ClosetCoderSad/Netflix-Clone",
     },
     {
-      id: 5,
+      id: 6,
       image: project4,
       title: "AI Assistant Mouse",
       demoLink: "https://github.com/ClosetCoderSad/AI_Assistant_Mouse",
